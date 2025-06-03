@@ -9,9 +9,9 @@ df = pd.DataFrame(data)
 new_row = {'Name': 'David', 'Age': 40, 'City': 'San Francisco'}
 df.loc[len(df)] = new_row
 
-# ## adding new row to df for v3
-# new_row2 = {'Name': 'Eve', 'Age': 45, 'City': 'Seattle'}
-# df.loc[len(df)] = new_row2
+## adding new row to df for v3
+new_row2 = {'Name': 'Eve', 'Age': 45, 'City': 'Seattle'}
+df.loc[len(df)] = new_row2
 
 data_dir = 'data'
 os.makedirs(data_dir, exist_ok=True)
